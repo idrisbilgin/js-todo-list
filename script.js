@@ -1,9 +1,6 @@
 const taskInput = document.querySelector("#task");
 const list = document.querySelector("#list");
 const task = document.querySelector("list li");
-const buttonDOM = document.querySelector("#liveToastBtn");
-const toastSuccess = document.querySelector(".toast.success");
-const toastError = document.querySelector(".toast.error");
 
 document.querySelectorAll("#list > li").forEach((element) => {
   let deleteBtn = document.createElement("button");
